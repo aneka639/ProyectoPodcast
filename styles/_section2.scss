@@ -1,8 +1,31 @@
 #section2 {
     img {
-        position: relative;
-        bottom: 70px;
-        height: 519px;
-        width: 360px;
+    position: relative;
+    bottom: 70px; 
+    left: -20px;       
+    height: 519px;
+    width: 360px;        
+    }
+}
+#section2 {
+    h2 {
+    color: $color-fuente;
+    font-family: $fuente-sans;
+    font-size: 36px;
+    max-width: 200px;
+    margin-left: 16px;
+    }
+}    
+    
+/*párrafo: se tienen que partir en 2*/
+#section2 { 
+    p {
+        font-family: $fuente-mono;
+        font-size: 14px;
+        margin: 8px 16px;
+        color: $color-fuente;
+        box-sizing: content-box;
+        width: 288px;
+        height: 254px;
     }
 }
