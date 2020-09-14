@@ -29,6 +29,10 @@ h1 .tachado {
   text-decoration: line-through;
 }
 
+h1 .blue {
+  color: #0000EC;
+}
+
 .section1 p {
   font-family: "IBM Plex Mono", monospace;
   font-size: 14px;
