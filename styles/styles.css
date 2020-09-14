@@ -119,6 +119,10 @@ a:hover .boton {
 }
 
 #section3 h2 {
-  color: red;
+  color: #060A24;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 36px;
+  max-width: 200px;
+  margin-left: 16px;
 }
 /*# sourceMappingURL=styles.css.map */

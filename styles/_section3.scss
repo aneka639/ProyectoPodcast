@@ -1,5 +1,9 @@
 #section3 {
     h2{
-       color: red;
+        color: $color-fuente;
+        font-family: $fuente-sans;
+        font-size: 36px;
+        max-width: 200px;
+        margin-left: 16px;
     }
 }
