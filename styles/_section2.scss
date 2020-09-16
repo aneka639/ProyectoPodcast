@@ -2,7 +2,7 @@
     img {
     position: relative;
     bottom: 70px; 
-    left: -20px;       
+    left: -30px;   
     height: 519px;
     width: 360px;        
     }
@@ -18,14 +18,15 @@
 }    
     
 /*párrafo: se tienen que partir en 2*/
+#section2 {
+    div {
+        margin: 8px 16px;
+    }
+}
 #section2 { 
     p {
         font-family: $fuente-mono;
         font-size: 14px;
-        margin: 8px 16px;
         color: $color-fuente;
-        box-sizing: content-box;
-        width: 288px;
-        height: 254px;
     }
 }
