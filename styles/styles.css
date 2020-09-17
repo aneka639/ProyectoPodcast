@@ -130,9 +130,8 @@ a:hover .boton {
 }
 
 #section3 div img {
-  max-width: 320px;
+  max-width: 320vw;
   max-height: 243px;
-  margin: 0;
   display: block;
 }
 
@@ -149,7 +148,21 @@ a:hover .boton {
   font-family: 'IBM Plex Sans Semi-Bold', sans-serif;
 }
 
-#section4 {
-  /*acomodarlos con grid*/
+#section4 article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+#section4 .icon {
+  margin: 0 auto;
+  width: 15%;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */

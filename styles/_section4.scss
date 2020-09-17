@@ -14,5 +14,17 @@
     }
 }
 #section4 {
-    /*acomodarlos con grid*/
+    article {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 }
+#section4 {
+    .icon {
+        margin: 0 auto; 
+        width: 15%;
+        text-align: center;       
+    }
+}
+
