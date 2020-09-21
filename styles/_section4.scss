@@ -1,16 +1,9 @@
 #section4 {
     h2 {
-        color: $color-fuente;
         font-family: $fuente-sans;
         font-size: 36px;
         max-width: 288px;
         margin-left: 16px;
-    }
-}
-#section4 {
-    h3 {
-        color: $color-fuente;
-        font-family: 'IBM Plex Sans Semi-Bold', sans-serif;
     }
 }
 #section4 {
@@ -22,9 +15,10 @@
 }
 #section4 {
     .icon {
-        margin: 0 auto; 
-        width: 15%;
-        text-align: center;       
+        text-align: center;
+        h3 {
+            font-size: 24px;
+            color: $color-fuente;
+        }
     }
 }
-
