@@ -1,0 +1,18 @@
+footer {
+    p {
+        display: flex;
+        justify-content: center;
+        color: $color-fuente;
+        font-family: $fuente-mono;
+        font-size: 14px;
+    }
+}
+footer {
+    .footercontainer {
+        display: flex;
+        justify-content: space-around;
+        a {
+            color: $color-fuente;
+        }
+    }
+}
