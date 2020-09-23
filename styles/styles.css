@@ -149,6 +149,8 @@ h1 .blue {
   text-decoration: none;
   font-family: "IBM Plex Mono", monospace medium;
   color: #060A24;
+  text-align: center;
+  margin: 13px 96px 13px 96px;
 }
 
 .boton:hover {
@@ -243,7 +245,7 @@ a:hover {
   margin-bottom: 80px;
 }
 
-#section5 button {
+#section5 .boton {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
