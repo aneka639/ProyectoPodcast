@@ -136,7 +136,6 @@ h1 .blue {
 .boton {
   background-color: #00F3BB;
   font-size: 16px;
-  font-family: "IBM Plex Mono", monospace medium;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -146,10 +145,10 @@ h1 .blue {
 }
 
 .boton a {
-  text-decoration: none;
-  font-family: "IBM Plex Mono", monospace medium;
-  color: #060A24;
   text-align: center;
+  text-decoration: none;
+  font-family: 'IBM Plex Mono medium', monospace;
+  color: #060A24;
 }
 
 .boton:hover {

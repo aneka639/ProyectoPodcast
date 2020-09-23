@@ -1,7 +1,6 @@
 .boton {
     background-color: #00F3BB;
     font-size: 16px;
-    font-family: $fuente-mono medium;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
@@ -9,10 +8,10 @@
     height: 48px;
     border: 0;
     a {
-        text-decoration: none;
-        font-family: $fuente-mono medium;
-        color: $color-fuente;
         text-align: center;
+        text-decoration: none;
+        font-family: 'IBM Plex Mono medium', monospace;
+        color: $color-fuente;
     }
 }
 .boton:hover {
