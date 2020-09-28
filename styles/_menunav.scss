@@ -1,15 +1,21 @@
 .menunav {
     ul {
         position: right;
-        li {
-            list-style-type: none;
-            font-family: 'IBM Plex Mono', monospace;
-            font-size: 16px;
-            color: $color-fuente;
-        }
+        @media screen and (min-width: 720px) {  
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+
+            li {
+                list-style-type: none;
+                font-family: 'IBM Plex Mono', monospace;
+                font-size: 16px;
+                color: $color-fuente;
+            }
+        }           
     }
-    
-}
+}    
 .logobd {
     box-sizing: content-box;
     width: 24px;

@@ -30,11 +30,27 @@ footer .footercontainer a {
   position: right;
 }
 
-.menunav ul li {
-  list-style-type: none;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 16px;
-  color: #060A24;
+@media screen and (min-width: 720px) {
+  .menunav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .menunav ul li {
+    list-style-type: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    color: #060A24;
+  }
 }
 
 .logobd {
@@ -93,18 +109,58 @@ h1 .blue {
 /*margin de los iframes */
 .episodio1 {
   margin: 21px 11px 11px 11px;
+  width: 100%;
+  height: 232px;
+  border: 0;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 720px) {
+  .episodio1 {
+    width: 584px;
+  }
 }
 
 .episodio2 {
   margin: 11px 11px 11px 11px;
+  width: 584px;
+  height: 232px;
+  border: 0;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 720px) {
+  .episodio2 {
+    width: 584px;
+  }
 }
 
 .episodio3 {
   margin: 11px 11px 11px 11px;
+  width: 100%;
+  height: 232px;
+  border: 0;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 720px) {
+  .episodio3 {
+    width: 584px;
+  }
 }
 
 .episodio4 {
   margin: 11px 11px 11px 11px;
+  width: 584px;
+  height: 232px;
+  border: 0;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 720px) {
+  .episodio4 {
+    width: 584px;
+  }
 }
 
 #section2 img {
@@ -145,6 +201,12 @@ h1 .blue {
 }
 
 .boton a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   text-decoration: none;
   font-family: 'IBM Plex Mono medium', monospace;
