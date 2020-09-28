@@ -13,11 +13,50 @@
                 color: $color-fuente;
                 @media screen and (min-width: 720px) {
                 margin-right: 46px;
+                a {
+                    text-decoration: none;
+                }
                 }
             }
         }           
     }
-}    
+}
+.menunav {
+    ul{
+        li {
+            a:hover{
+                @media screen and (min-width: 720px) {
+                    color: #00F3BB;
+                    text-decoration: line-through;
+                }    
+            }
+        }
+    }
+}
+.menunav {
+    ul{
+        li {
+            a:active{
+                @media screen and (min-width: 720px) {
+                    color: grey;
+                    text-decoration: line-through;
+                }    
+            }
+        }
+    }
+}
+.menunav {
+    ul{
+        li {
+            a:visited{
+                @media screen and (min-width: 720px) {
+                    color: grey;
+                    text-decoration: line-through;
+                }    
+            }
+        }
+    }
+}
 .logobd {
     box-sizing: content-box;
     width: 24px;

@@ -57,6 +57,30 @@ footer .footercontainer a {
   .menunav ul li {
     margin-right: 46px;
   }
+  .menunav ul li a {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .menunav ul li a:hover {
+    color: #00F3BB;
+    text-decoration: line-through;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .menunav ul li a:active {
+    color: grey;
+    text-decoration: line-through;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .menunav ul li a:visited {
+    color: grey;
+    text-decoration: line-through;
+  }
 }
 
 .logobd {
