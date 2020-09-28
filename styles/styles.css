@@ -41,15 +41,21 @@ footer .footercontainer a {
             flex-direction: row;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
   .menunav ul li {
     list-style-type: none;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     color: #060A24;
+  }
+}
+
+@media screen and (min-width: 720px) and (min-width: 720px) {
+  .menunav ul li {
+    margin-right: 46px;
   }
 }
 
