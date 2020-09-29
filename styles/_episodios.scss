@@ -1,8 +1,8 @@
 /* fondo azul */
-#episodios {
+/* #episodios {
     clip-path: polygon(0 7%, 100% 2%, 100% 94%, 0 100%);
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-    max-height: 1203.5px;
+    max-height: 1440px;
     padding: 2rem 0 8rem;
     h2 {
         color: white;
@@ -10,7 +10,40 @@
         font-size: 36px;
         position: relative;
         top: 30px;    
+        @media screen and (min-width: 720px) {
+            margin-left: 150px;
+            margin-top: 70px;
+            margin-bottom: 50px;
+        }
     }
+} */
+
+.containerepisodio {
+    clip-path: polygon(0 7%, 100% 2%, 100% 94%, 0 100%);
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    max-height: 1440px;
+    padding: 2rem 0 8rem;
+    h2 {
+        color: white;
+        font-family: $fuente-sans;
+        font-size: 36px;
+        position: relative;
+        top: 30px;    
+        @media screen and (min-width: 720px) {
+            margin-left: 150px;
+            margin-top: 70px;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+/*
+.containerepisodio {
+    @media screen and (min-width: 720px) {
+        max-height: 1440px;
+        display: flex;
+        overflow: hidden;
+    } 
 }
 /*margin de los iframes */
 .episodio1 {
@@ -21,9 +54,10 @@
     background-color: transparent;
     @media screen and (min-width: 720px) {
         width: 584px;
+        display: flex;
+        align-items: flex-start;
     }
 }
-
 .episodio2 {
     margin: 11px 11px 11px 11px;
     width: 584px;
@@ -31,7 +65,7 @@
     border: 0;
     background-color: transparent;
     @media screen and (min-width: 720px) {
-        width: 584px;        
+        width: 584px;     
     }
 }    
 .episodio3 {
@@ -53,4 +87,4 @@
     @media screen and (min-width: 720px) {
         width: 584px;        
     }
-}    
+}
