@@ -22,6 +22,15 @@
     color: white;
     }
 }
+.boton1 {
+    max-width: 226px;
+    @media screen and (min-width: 720px) {
+        margin-left: 100px;
+    }
+    a{
+
+    }
+}
 /*
 .boton {
     background-color: #00F3BB;

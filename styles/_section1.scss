@@ -6,9 +6,14 @@ h1 {
     font-size: 36px;
     color: $color-fuente;
     max-width: 250px;
-
+    @media screen and (min-width: 720px) {
+        font-size: 64px;
+        max-width: 100%;
+        margin-left: 100px;
+        margin-bottom: 0;
+    }    
     .tachado {
-        text-decoration: line-through;
+        text-decoration: line-through;        
     }
 }
 h1 {
@@ -21,6 +26,13 @@ h1 {
         font-family: $fuente-mono;
         font-size: 14px;
         max-width: 288px;
-        color: $color-fuente;    
+        color: $color-fuente;
+        letter-spacing: 0;
+        line-height: 24px;
+        @media screen and (min-width: 720px) {
+            max-width: 628px;
+            margin-left: 100px;
+            margin-top: 0;
+        }
     }
 }

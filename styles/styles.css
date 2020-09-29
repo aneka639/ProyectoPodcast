@@ -50,6 +50,7 @@ footer .footercontainer a {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     color: #060A24;
+    text-transform: uppercase;
   }
 }
 
@@ -104,6 +105,15 @@ h1 {
   max-width: 250px;
 }
 
+@media screen and (min-width: 720px) {
+  h1 {
+    font-size: 64px;
+    max-width: 100%;
+    margin-left: 100px;
+    margin-bottom: 0;
+  }
+}
+
 h1 .tachado {
   text-decoration: line-through;
 }
@@ -117,6 +127,16 @@ h1 .blue {
   font-size: 14px;
   max-width: 288px;
   color: #060A24;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 720px) {
+  .section1 p {
+    max-width: 628px;
+    margin-left: 100px;
+    margin-top: 0;
+  }
 }
 
 /* fondo azul */
@@ -249,6 +269,16 @@ h1 .blue {
 
 .boton:hover a {
   color: white;
+}
+
+.boton1 {
+  max-width: 226px;
+}
+
+@media screen and (min-width: 720px) {
+  .boton1 {
+    margin-left: 100px;
+  }
 }
 
 /*
