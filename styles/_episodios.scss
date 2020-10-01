@@ -24,11 +24,6 @@
 } 
 .losepisodios {
     @media screen and (min-width: 720px) {
-        display: flex;
-        width: 500px;
-        height: 200px;
-        flex-direction: row;
-        flex-wrap: nowrap;
     }
 }
 .episodio {
@@ -39,6 +34,7 @@
     background-color: transparent;
     @media screen and (min-width: 720px) {
         max-width: 548px; 
+        display: flex;
         text-align: center;            
     }
 }

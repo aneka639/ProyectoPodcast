@@ -183,22 +183,6 @@ h1 .blue {
   }
 }
 
-@media screen and (min-width: 720px) {
-  .losepisodios {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 500px;
-    height: 200px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-  }
-}
-
 .episodio {
   margin: 21px 11px 11px 11px;
   width: 100%;
@@ -210,6 +194,9 @@ h1 .blue {
 @media screen and (min-width: 720px) {
   .episodio {
     max-width: 548px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     text-align: center;
   }
 }
