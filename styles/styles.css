@@ -154,8 +154,17 @@ h1 .blue {
   -webkit-clip-path: polygon(0 7%, 100% 2%, 100% 94%, 0 100%);
           clip-path: polygon(0 7%, 100% 2%, 100% 94%, 0 100%);
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-  max-height: 1440px;
+  max-height: 1040px;
   padding: 2rem 0 8rem;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+@media screen and (min-width: 720px) {
+  .containerepisodio {
+    max-width: 100vw;
+    max-height: 1042px;
+  }
 }
 
 .containerepisodio h2 {
@@ -175,16 +184,22 @@ h1 .blue {
 }
 
 @media screen and (min-width: 720px) {
-  .episodio {
+  .losepisodios {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    max-width: 548px;
+    width: 500px;
+    height: 200px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
 }
 
-/*margin de los iframes */
-.episodio1 {
+.episodio {
   margin: 21px 11px 11px 11px;
   width: 100%;
   height: 232px;
@@ -193,57 +208,52 @@ h1 .blue {
 }
 
 @media screen and (min-width: 720px) {
-  .episodio1 {
-    width: 584px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .episodio {
+    max-width: 548px;
+    text-align: center;
   }
 }
 
+/*margin de los iframes 
+.episodio1 {
+
+    @media screen and (min-width: 720px) {
+        width: 584px;
+        display: flex;
+    }
+}
 .episodio2 {
-  margin: 11px 11px 11px 11px;
-  width: 584px;
-  height: 232px;
-  border: 0;
-  background-color: transparent;
-}
-
-@media screen and (min-width: 720px) {
-  .episodio2 {
-    width: 584px;
-  }
-}
-
-.episodio3 {
-  margin: 11px 11px 11px 11px;
-  width: 100%;
-  height: 232px;
-  border: 0;
-  background-color: transparent;
-}
-
-@media screen and (min-width: 720px) {
-  .episodio3 {
-    width: 584px;
-  }
-}
-
-.episodio4 {
-  margin: 11px 11px 11px 11px;
-  width: 584px;
-  height: 232px;
-  border: 0;
-  background-color: transparent;
-}
-
-@media screen and (min-width: 720px) {
-  .episodio4 {
+    margin: 11px 11px 11px 11px;
     width: 584px;
     height: 232px;
-  }
+    border: 0;
+    background-color: transparent;
+    @media screen and (min-width: 720px) {
+        width: 584px;     
+    }
+}    
+.episodio3 {
+    margin: 11px 11px 11px 11px;
+    width: 100%;
+    height: 232px;
+    border: 0;
+    background-color: transparent;
+    @media screen and (min-width: 720px) {
+        width: 584px;        
+    }
+}    
+.episodio4 {
+    margin: 11px 11px 11px 11px;
+    width: 584px;
+    height: 232px;
+    border: 0;
+    background-color: transparent;
+    @media screen and (min-width: 720px) {
+        width: 584px; 
+        height: 232px;       
+    }
 }
-
+*/
 #section2 img {
   position: relative;
   bottom: 70px;
