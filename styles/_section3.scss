@@ -1,18 +1,38 @@
 #section3 {
+    @media screen and (min-width: 720px) {
+        box-sizing: content-box;
+        width: 1440px;
+        height: 950px;
+    }
     h2{
         color: $color-fuente;
         font-family: $fuente-sans;
         font-size: 36px;
         max-width: 200px;
         margin-left: 16px;
+        @media screen and (min-width: 720px) {
+            box-sizing: content-box;
+            font-size: 48px;
+            max-width: 490px;
+            position: relative;
+            left: 200px;
+        }
     }
 }
 #section3 {
-    div {
+    div { 
+        @media screen and (min-width: 720px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
         img {
             max-width: 320vw;
             max-height: 243px;
             display: block;
+            @media screen and (min-width: 720px) {
+                max-width: 480px;
+                max-height: 364px;
+            }
         }
     }
 }

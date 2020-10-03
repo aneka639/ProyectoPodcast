@@ -208,6 +208,12 @@ h1 .blue {
   }
 }
 
+@media screen and (min-width: 720px) {
+  #section2 {
+    max-height: 500px;
+  }
+}
+
 #section2 img {
   position: relative;
   bottom: 70px;
@@ -232,7 +238,8 @@ h1 .blue {
 
 @media screen and (min-width: 720px) {
   #section2 h2 {
-    max-width: 399px;
+    max-width: 420px;
+    font-size: 48px;
   }
 }
 
@@ -323,6 +330,15 @@ a:hover {
         color: white;
 }
 */
+@media screen and (min-width: 720px) {
+  #section3 {
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    width: 1440px;
+    height: 950px;
+  }
+}
+
 #section3 h2 {
   color: #060A24;
   font-family: "IBM Plex Sans", sans-serif;
@@ -331,10 +347,38 @@ a:hover {
   margin-left: 16px;
 }
 
+@media screen and (min-width: 720px) {
+  #section3 h2 {
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    font-size: 48px;
+    max-width: 490px;
+    position: relative;
+    left: 200px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  #section3 div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 #section3 div img {
   max-width: 320vw;
   max-height: 243px;
   display: block;
+}
+
+@media screen and (min-width: 720px) {
+  #section3 div img {
+    max-width: 480px;
+    max-height: 364px;
+  }
 }
 
 #section4 h2 {

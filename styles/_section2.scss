@@ -1,4 +1,7 @@
 #section2 {
+    @media screen and (min-width: 720px) {
+        max-height: 500px;
+    }
     img {
     position: relative;
     bottom: 70px; 
@@ -18,7 +21,8 @@
         max-width: 200px;
         margin-left: 16px;
         @media screen and (min-width: 720px) {
-            max-width: 399px;
+            max-width: 420px;
+            font-size: 48px;
         }
     }
 }    
