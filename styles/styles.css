@@ -407,7 +407,7 @@ a:hover {
 }
 
 #section3 div img {
-  max-width: 320vw;
+  width: 100vw;
   max-height: 243px;
   display: block;
 }
