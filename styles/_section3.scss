@@ -3,6 +3,7 @@
         box-sizing: content-box;
         width: 1440px;
         height: 950px;
+        margin-bottom: 0;
     }
     h2{
         color: $color-fuente;
@@ -14,8 +15,7 @@
             box-sizing: content-box;
             font-size: 48px;
             max-width: 490px;
-            position: relative;
-            left: 200px;
+
         }
     }
 }

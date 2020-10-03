@@ -336,6 +336,7 @@ a:hover {
             box-sizing: content-box;
     width: 1440px;
     height: 950px;
+    margin-bottom: 0;
   }
 }
 
@@ -353,8 +354,6 @@ a:hover {
             box-sizing: content-box;
     font-size: 48px;
     max-width: 490px;
-    position: relative;
-    left: 200px;
   }
 }
 
@@ -388,6 +387,17 @@ a:hover {
   margin-left: 16px;
 }
 
+@media screen and (min-width: 720px) {
+  #section4 h2 {
+    font-size: 48px;
+    max-width: 590px;
+    margin-top: 0;
+    position: relative;
+    left: 200px;
+    bottom: 69px;
+  }
+}
+
 #section4 article {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -400,6 +410,23 @@ a:hover {
       flex-wrap: nowrap;
 }
 
+@media screen and (min-width: 720px) {
+  #section4 article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
 #section4 .icon {
   text-align: center;
 }
@@ -407,6 +434,14 @@ a:hover {
 #section4 .icon h3 {
   font-size: 24px;
   color: #060A24;
+  font-family: "IBM Plex Sans", sans-serif bold;
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 720px) {
+  #section4 .icon h3 {
+    max-width: 220px;
+  }
 }
 
 #section5 {
@@ -419,8 +454,8 @@ a:hover {
   text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-clip-path: polygon(0 14%, 100% 1%, 100% 100%, 0% 100%);
-          clip-path: polygon(0 14%, 100% 1%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 46%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 46%, 100% 0%, 100% 100%, 0% 100%);
   background-image: linear-gradient(225deg, blue 0%, #0000A3 100%);
   padding: 50px;
 }
