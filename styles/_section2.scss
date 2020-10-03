@@ -4,16 +4,22 @@
     bottom: 70px; 
     left: -30px;   
     height: 519px;
-    width: 360px;        
+    width: 360px;
+        @media screen and (min-width: 720px) {
+            left: 200px;
+        }        
     }
 }
 #section2 {
     h2 {
-    color: $color-fuente;
-    font-family: $fuente-sans;
-    font-size: 36px;
-    max-width: 200px;
-    margin-left: 16px;
+        color: $color-fuente;
+        font-family: $fuente-sans;
+        font-size: 36px;
+        max-width: 200px;
+        margin-left: 16px;
+        @media screen and (min-width: 720px) {
+            max-width: 399px;
+        }
     }
 }    
 #section2 {
@@ -26,5 +32,17 @@
         font-family: $fuente-mono;
         font-size: 14px;
         color: $color-fuente;
+        @media screen and (min-width: 720px) {
+            font-size: 16px;
+        }
+    }
+}
+.section2container {
+    @media screen and (min-width: 720px) {
+        box-sizing: content-box;
+        max-width: 464px;
+        position: relative;
+        left: 720px;
+        bottom: 500px;  
     }
 }

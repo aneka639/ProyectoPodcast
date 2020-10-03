@@ -216,12 +216,24 @@ h1 .blue {
   width: 360px;
 }
 
+@media screen and (min-width: 720px) {
+  #section2 img {
+    left: 200px;
+  }
+}
+
 #section2 h2 {
   color: #060A24;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   max-width: 200px;
   margin-left: 16px;
+}
+
+@media screen and (min-width: 720px) {
+  #section2 h2 {
+    max-width: 399px;
+  }
 }
 
 #section2 div {
@@ -232,6 +244,23 @@ h1 .blue {
   font-family: "IBM Plex Mono", monospace;
   font-size: 14px;
   color: #060A24;
+}
+
+@media screen and (min-width: 720px) {
+  #section2 p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .section2container {
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    max-width: 464px;
+    position: relative;
+    left: 720px;
+    bottom: 500px;
+  }
 }
 
 .boton {
