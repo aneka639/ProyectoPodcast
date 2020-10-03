@@ -2,6 +2,19 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
+@media screen and (min-width: 720px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 70px;
+  }
+}
+
 footer p {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,6 +27,14 @@ footer p {
   font-size: 14px;
 }
 
+@media screen and (min-width: 720px) {
+  footer p {
+    font-size: 16px;
+    position: relative;
+    left: 100px;
+  }
+}
+
 footer .footercontainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,8 +43,26 @@ footer .footercontainer {
       justify-content: space-around;
 }
 
+@media screen and (min-width: 720px) {
+  footer .footercontainer {
+    width: 234px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    right: -800px;
+  }
+}
+
 footer .footercontainer a {
   color: #060A24;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 720px) {
+  footer .footercontainer a {
+    font-size: 18px;
+  }
 }
 
 .menunav ul {

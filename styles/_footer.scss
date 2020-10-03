@@ -1,18 +1,38 @@
 footer {
+    @media screen and (min-width: 720px) {
+        display: flex;
+        flex-direction: row;
+        height: 70px;
+    }
     p {
         display: flex;
         justify-content: center;
         color: $color-fuente;
         font-family: $fuente-mono;
-        font-size: 14px;
+        font-size: 14px; 
+        @media screen and (min-width: 720px) {
+            font-size: 16px;
+            position: relative;
+            left: 100px; 
+        }
     }
 }
 footer {
     .footercontainer {
         display: flex;
         justify-content: space-around;
+        @media screen and (min-width: 720px) {
+            width: 234px;
+            align-items: center;
+            position: relative;
+            right: -800px;          
+        }
         a {
             color: $color-fuente;
+            font-size: 16px;  
+            @media screen and (min-width: 720px) {
+                font-size: 18px;
+            }          
         }
     }
 }
