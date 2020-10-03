@@ -454,10 +454,31 @@ a:hover {
   text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-clip-path: polygon(0 46%, 100% 0%, 100% 100%, 0% 100%);
-          clip-path: polygon(0 46%, 100% 0%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 29%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 29%, 100% 0%, 100% 100%, 0% 100%);
   background-image: linear-gradient(225deg, blue 0%, #0000A3 100%);
   padding: 50px;
+}
+
+@media screen and (min-width: 720px) {
+  #section5 {
+    height: 518px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  #section5 .claseflex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 #section5 h2 {
@@ -468,5 +489,11 @@ a:hover {
   top: 30px;
   max-height: 126px;
   margin-bottom: 80px;
+}
+
+@media screen and (min-width: 720px) {
+  #section5 h2 {
+    font-size: 48px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
