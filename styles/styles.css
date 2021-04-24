@@ -188,7 +188,7 @@ h1 .blue {
   }
 }
 
-/* fondo azul */
+/*----------------fondo azul--------------------*/
 .fondoazul1 {
   -webkit-clip-path: polygon(0 7%, 100% 2%, 100% 94%, 0 100%);
           clip-path: polygon(0 7%, 100% 2%, 100% 94%, 0 100%);
@@ -222,9 +222,17 @@ h1 .blue {
   }
 }
 
-/*Episodios*/
+/*----------Episodios-------------*/
 .losepisodios {
+  width: 325px;
   max-height: 835px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media screen and (min-width: 720px) {
@@ -241,17 +249,11 @@ h1 .blue {
 }
 
 .losepisodios .episodio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 225px;
+  /*display: flex;
+        flex-direction: column;
+        align-items: center;*/
+  top: 20px;
+  position: relative;
   height: 200px;
   border: 0;
 }

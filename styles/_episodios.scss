@@ -1,4 +1,4 @@
-/* fondo azul */
+/*----------------fondo azul--------------------*/
 .fondoazul1 {
     clip-path: polygon(0 7%, 100% 2%, 100% 94%, 0 100%);
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
@@ -22,9 +22,12 @@
         }         
     }     
 }
-/*Episodios*/
+/*----------Episodios-------------*/
 .losepisodios {
-    max-height: 835px;  
+    width: 325px;  
+    max-height: 835px;
+    display: flex;
+    flex-direction: column;
     @media screen and (min-width: 720px) {
         display: flex;
         flex-wrap: wrap;
@@ -34,10 +37,11 @@
 
 .losepisodios {
     .episodio {
-        display: flex;
+        /*display: flex;
         flex-direction: column;
-        align-items: center;
-        width: 225px;
+        align-items: center;*/
+        top: 20px;
+        position: relative;
         height: 200px;        
         border: 0;
         @media screen and (min-width: 720px) {
@@ -50,4 +54,3 @@
         }
     }    
 }
-
