@@ -51,6 +51,7 @@ header {
         list-style-type: none;
         text-decoration: none;
         padding: 20px;
+        text-transform: uppercase;
         @media screen and (min-width: 720px) {  
             display: flex;
             flex-direction: row;
@@ -62,15 +63,22 @@ header {
                 font-size: 16px;
                 color: $color-fuente;
                 text-transform: uppercase;
-                padding: 15px;
+                padding: 20px;
                 @media screen and (min-width: 720px) {
                 margin-right: 46px;
                 a {
-                    text-decoration: none;
+                    text-decoration: none;                    
                 }
                 }
             }
         }           
+    }
+}
+
+.menunav {
+    li {
+        padding: 15px;
+        color: white;
     }
 }
 
