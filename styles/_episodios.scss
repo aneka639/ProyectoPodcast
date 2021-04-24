@@ -32,6 +32,9 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        position: relative;        
+        left: 0;       
+        width: 584px; 
     }
 }
 
@@ -49,7 +52,7 @@
             height: 232px;
             max-width: 100%;
             max-height: 100%;
-            margin: 15px;
+            margin: 35px;
             border: 0;
         }
     }    

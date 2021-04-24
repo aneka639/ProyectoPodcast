@@ -47,6 +47,14 @@
         max-width: 464px;
         position: relative;
         left: 720px;
-        bottom: 500px;  
+        bottom: 500px;
+    }
+}
+article {
+    .section2container {
+        @media screen and (min-width: 720px) {
+            margin: 0;
+            display: inline-block;
+        }
     }
 }

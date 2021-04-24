@@ -121,7 +121,7 @@ header label {
             justify-content: flex-end;
     width: -100px;
     z-index: -1;
-    top: 20px;
+    top: -30px;
   }
 }
 
@@ -217,8 +217,7 @@ header label {
     width: 36px;
     height: 36px;
     margin-left: 100px;
-    margin-top: -112px;
-    z-index: -1;
+    margin-top: -120px;
   }
 }
 
@@ -327,6 +326,9 @@ h1 .blue {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    position: relative;
+    left: 0;
+    width: 584px;
   }
 }
 
@@ -346,7 +348,7 @@ h1 .blue {
     height: 232px;
     max-width: 100%;
     max-height: 100%;
-    margin: 15px;
+    margin: 35px;
     border: 0;
   }
 }
@@ -414,6 +416,13 @@ h1 .blue {
     position: relative;
     left: 720px;
     bottom: 500px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  article .section2container {
+    margin: 0;
+    display: inline-block;
   }
 }
 
@@ -522,7 +531,7 @@ a:hover {
 
 @media screen and (min-width: 720px) {
   #section3 div img {
-    max-width: 480px;
+    max-width: 380px;
     max-height: 364px;
   }
 }
