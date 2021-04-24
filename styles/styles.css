@@ -92,6 +92,39 @@ header label {
   }
 }
 
+.menunav {
+  position: absolute;
+  background-color: #0000EC;
+  width: 100%;
+  margin-right: -50%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  top: 50px;
+  left: 0px;
+  display: none;
+}
+
+@media screen and (min-width: 720px) {
+  .menunav {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: -100px;
+    z-index: -1;
+    top: 20px;
+  }
+}
+
 .menunav ul {
   position: right;
 }
@@ -164,7 +197,8 @@ header label {
     width: 36px;
     height: 36px;
     margin-left: 100px;
-    margin-top: 22px;
+    margin-top: -112px;
+    z-index: -1;
   }
 }
 
