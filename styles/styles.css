@@ -158,6 +158,8 @@ header label {
     font-size: 16px;
     color: #060A24;
     text-transform: uppercase;
+    list-style-type: none;
+    text-decoration: none;
     padding: 20px;
   }
 }
@@ -419,13 +421,6 @@ h1 .blue {
   }
 }
 
-@media screen and (min-width: 720px) {
-  article .section2container {
-    margin: 0;
-    display: inline-block;
-  }
-}
-
 .boton {
   background-color: #00F3BB;
   font-size: 16px;
@@ -531,7 +526,7 @@ a:hover {
 
 @media screen and (min-width: 720px) {
   #section3 div img {
-    max-width: 380px;
+    max-width: 445px;
     max-height: 364px;
   }
 }

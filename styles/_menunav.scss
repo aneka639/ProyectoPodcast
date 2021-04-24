@@ -63,6 +63,8 @@ header {
                 font-size: 16px;
                 color: $color-fuente;
                 text-transform: uppercase;
+                list-style-type: none;
+                text-decoration: none;
                 padding: 20px;
                 @media screen and (min-width: 720px) {
                 margin-right: 46px;
