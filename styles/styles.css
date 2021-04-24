@@ -126,7 +126,14 @@ header label {
 }
 
 .menunav ul {
-  position: right;
+  /*position: right;*/
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 20px;
 }
 
 @media screen and (min-width: 720px) {
@@ -145,11 +152,12 @@ header label {
             justify-content: flex-end;
   }
   .menunav ul li {
-    list-style-type: none;
+    /*list-style-type: none;*/
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     color: #060A24;
     text-transform: uppercase;
+    padding: 15px;
   }
 }
 
@@ -160,6 +168,12 @@ header label {
   .menunav ul li a {
     text-decoration: none;
   }
+}
+
+#btn-menu:checked ~ .menunav {
+  margin: 0;
+  visibility: visible;
+  display: block;
 }
 
 @media screen and (min-width: 720px) {
