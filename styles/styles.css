@@ -81,7 +81,7 @@ header label {
 .burg {
   width: 17px;
   position: relative;
-  left: 320px;
+  left: 230px;
   top: 0;
 }
 
@@ -153,10 +153,11 @@ header label {
             justify-content: flex-end;
   }
   .menunav ul li {
-    /*list-style-type: none;*/
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
-    color: #060A24;
     text-transform: uppercase;
     list-style-type: none;
     text-decoration: none;
@@ -167,6 +168,7 @@ header label {
 @media screen and (min-width: 720px) and (min-width: 720px) {
   .menunav ul li {
     margin-right: 46px;
+    color: #060A24;
   }
   .menunav ul li a {
     text-decoration: none;
@@ -176,6 +178,11 @@ header label {
 .menunav li {
   padding: 15px;
   color: white;
+}
+
+.menunav li a {
+  color: white;
+  text-decoration: none;
 }
 
 #btn-menu:checked ~ .menunav {

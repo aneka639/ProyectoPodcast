@@ -13,7 +13,7 @@ header {
 .burg {
     width: 17px;
     position: relative;
-    left: 320px;
+    left: 230px;
     top: 0;
     @media screen and (min-width: 720px) {
      display: none;
@@ -58,16 +58,18 @@ header {
             flex-wrap: nowrap;
             justify-content: flex-end;                       
             li {            
-                /*list-style-type: none;*/
+                color: white;
+                list-style-type: none;
+                text-decoration: none;
                 font-family: 'IBM Plex Mono', monospace;
                 font-size: 16px;
-                color: $color-fuente;
                 text-transform: uppercase;
                 list-style-type: none;
                 text-decoration: none;
                 padding: 20px;
                 @media screen and (min-width: 720px) {
                 margin-right: 46px;
+                color: $color-fuente;
                 a {
                     text-decoration: none;                    
                 }
@@ -81,6 +83,10 @@ header {
     li {
         padding: 15px;
         color: white;
+        a {
+            color: white;
+            text-decoration: none;
+        }
     }
 }
 
