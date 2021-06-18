@@ -81,7 +81,7 @@ header label {
 .burg {
   width: 17px;
   position: relative;
-  left: 230px;
+  left: 250px;
   top: 0;
 }
 
@@ -314,7 +314,7 @@ h1 .blue {
 
 /*----------Episodios-------------*/
 .losepisodios {
-  width: 325px;
+  width: 100%;
   max-height: 835px;
   display: -webkit-box;
   display: -ms-flexbox;
